@@ -57,15 +57,27 @@ p{
 
 .footer{
   position: relative;
-  text-align: center;
+  text-align: left;
   color: white;
 }
 
+.footerimage{
+  width: 100%;
+}
 
+.inner{
+  position:absolute;
+  z-index:1;
+  top:0;
+  left:0;
+}
 
 .policy{
-  position: absolute;
-  bottom: 5%;
-  left: 5%;
+  position:absolute;
+  z-index:1;
+  bottom: 0;
+  left:0;
+  font-size: 12px;
+  width: 100%;
 
 }
