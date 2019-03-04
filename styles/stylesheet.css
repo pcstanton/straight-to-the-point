@@ -1,0 +1,73 @@
+* {
+  font-family:arial
+}
+.header {
+  background-color:rgb(3,163,223);
+}
+
+
+p{
+  font-weight: bold;
+}
+
+.container{
+  height: 700px;
+  background-color: white;
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+
+  height: 700px;
+
+  width: 50%;
+
+  background: white;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.instructor-1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.instructor-2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.instructor-3 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.instructor-4 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.footer{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.footerimage{
+  width: 100%;
+}
+
+.policy{
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+
+}
