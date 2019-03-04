@@ -3,8 +3,13 @@
 }
 .header {
   background-color:rgb(3,163,223);
+  width: 100%;
 }
-
+.nav{
+  position:absolute;
+  right:5%;
+  top:10%;
+}
 
 p{
   font-weight: bold;
@@ -21,7 +26,7 @@ p{
 }
 .box {
 
-  height: 700px;
+  height: 70%;
 
   width: 50%;
 
@@ -76,8 +81,8 @@ p{
   position:absolute;
   z-index:1;
   bottom: 0;
-  left:0;
+  right:0;
   font-size: 12px;
-  width: 100%;
+  width: 50%;
 
 }
