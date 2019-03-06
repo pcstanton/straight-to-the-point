@@ -25,13 +25,9 @@ p{
   align-items: center;
 }
 .box {
-
   height: 70%;
-
   width: 50%;
-
   background: white;
-
 }
 
 .grid-container {
@@ -60,12 +56,15 @@ p{
   grid-row: 2/3;
 }
 
-
-
 .footer{
   position: relative;
   text-align: left;
   color: white;
+}
+
+footer {
+  background-color:rgb(3,163,223);
+  width: 100%;
 }
 
 .footerimage{
@@ -86,5 +85,4 @@ p{
   right:0;
   font-size: 12px;
   width: 50%;
-
 }
